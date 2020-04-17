@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Review Signature</title>
+  <!-- <link rel='shortcut icon' href='images/logo' type='image/x-icon'> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/review_signature.css">
+</head>
+<body>
+
+  <!-- === header section start === -->
+  <header class="my-md-5 my-4">
+    <div class="container">
+      <h1 class="page-title">Review Signature Page</h1>
+    </div>
+  </header>
+  <!-- ===//end of header section === -->
+ 
+
+  <!-- === design_generate section start === -->
+  <section id="design_generate">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 order-md-1 order-2 mb-md-0 mb-4">
+          <form action="" onsubmit="showDesign()">
+            <div class="form-group">
+              <div class="form-group">
+                <input type="text" class="form-control" name="" id="company_name" placeholder="Enter your company name..." required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-group">
+                <input type="text" class="form-control" name="" id="review_funnel" placeholder="Enter your Review funnel..." required>
+              </div>
+            </div>
+            <button class="btn generate_btn btn-block btn-lg">Generate Email signature </button>
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-6 order-md-2 order-1 mb-md-0 mb-4">
+         <div class="text">
+           <h3>How to use:</h3>
+           <p>
+            Enter in your company name and your review funnel link at the bottom. Once done, click on Generate to get a list of available review signature styles. You can copy these to your clipboard and paste them into your email client signature settings page.
+           </p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===//end of design_generate section === -->
+ 
+  
+  <!-- === design_show section start === -->
+  <section id="design_show" class="d-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-1">
+              <input type="radio" name="rating" value="5" id="star-5.1"> <label for="star-5.1"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.1"> <label for="star-4.1"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.1"> <label for="star-3.1"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.1"> <label for="star-2.1"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.1"> <label for="star-1.1"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-2">
+              <input type="radio" name="rating" value="5" id="star-5.2"> <label for="star-5.2"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.2"> <label for="star-4.2"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.2"> <label for="star-3.2"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.2"> <label for="star-2.2"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.2"> <label for="star-1.2"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-3">
+              <input type="radio" name="rating" value="5" id="star-5.3"> <label for="star-5.3"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.3"> <label for="star-4.3"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.3"> <label for="star-3.3"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.3"> <label for="star-2.3"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.3"> <label for="star-1.3"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-4">
+              <input type="radio" name="rating" value="5" id="star-5.4"> <label for="star-5.4"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.4"> <label for="star-4.4"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.4"> <label for="star-3.4"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.4"> <label for="star-2.4"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.4"> <label for="star-1.4"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-5">
+              <input type="radio" name="rating" value="5" id="star-5.5"> <label for="star-5.5"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.5"> <label for="star-4.5"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.5"> <label for="star-3.5"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.5"> <label for="star-2.5"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.5"> <label for="star-1.5"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="design_box shadow">
+            <h6 class="title">How did we do?</h6>
+            <div class="rating-box rating-box-6">
+              <input type="radio" name="rating" value="5" id="star-5.6"> <label for="star-5.6"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="4" id="star-4.6"> <label for="star-4.6"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="3" id="star-3.6"> <label for="star-3.6"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="2" id="star-2.6"> <label for="star-2.6"><i class="fas fa-star"></i></label>
+              <input type="radio" name="rating" value="1" id="star-1.6"> <label for="star-1.6"><i class="fas fa-star"></i></label>
+            </div>
+            <p>
+              Click to rate your experience with [<span class="company_show"> company name </span>]
+            </p>
+            <button class="btn btn-sm copy_btn">copy to clipboard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===//end of design_show section === -->
+ 
+
+ 
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    function showDesign(){
+      var element = document.getElementById("design_show");
+      var companyName = document.getElementById("company_name").value;
+      var companyShow = document.getElementsByClassName("company_show");
+      var companyLength = companyShow.length - 1;
+
+      console.log(companyLength);
+      
+
+      element.classList.add("d-block");
+      event.preventDefault();
+
+      for(var lengthIndex = 0; lengthIndex <= companyLength; lengthIndex++ ){
+        companyShow[lengthIndex].innerHTML = companyName;
+      }
+    }
+  </script>
+</body>
+</html>
