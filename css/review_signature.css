@@ -51,6 +51,11 @@ body {
   font-weight: 600;
   font-weight: 22px;
   text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+#design_generate .generate_btn:hover {
+  background: #2d8be9;
 }
 
 #design_generate .text h3 {
@@ -75,6 +80,7 @@ body {
   padding: 20px 15px;
   border-radius: 7px;
   margin-bottom: 30px;
+  min-height: 200px;
 }
 
 .design_box .title {
@@ -82,10 +88,12 @@ body {
   color: #686767;
 }
 
+.like-box,
 .rating-box {
   direction: rtl !important;
 }
 
+.like-box input,
 .rating-box input {
   display: none;
 }
@@ -97,12 +105,52 @@ body {
   color: #999;
 }
 
-.rating-box label:hover, label:hover ~ label, input:checked ~ label{
+.rating-box-lg label {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.rating-box label:hover, .rating-box label:hover ~ label, .rating-box input:checked ~ label{
   color: gold;
 }
 
+.heart-box label:hover, .heart-box label:hover ~ label, .heart-box input:checked ~ label{
+  color: red;
+}
+
+.like-box label {
+  font-size: 13px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  color: #777;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.like-box-lg label {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.like-box label:hover, .like-box label:hover, .like-box input:checked + label{
+  background: #479aeb;
+  color: #fff;
+}
+
+.face-box label:hover,
+.face-box-lg label:hover {
+  transform: scale(1.1);
+}
+
 .design_box p {
-  font-size: 12px;
+  font-size: 14px;
   color: #479aeb;
   margin-bottom: .5rem;
 }
@@ -113,6 +161,11 @@ body {
   text-transform: uppercase;
   color: #fff;
   background: #479aeb;
+  transition: all 0.2s linear;
+}
+
+.design_box .copy_btn:hover {
+  background: #2d8be9;
 }
 /* ===//end of design_show section === */
 
